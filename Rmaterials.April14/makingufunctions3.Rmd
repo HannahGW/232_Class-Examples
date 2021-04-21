@@ -100,7 +100,7 @@ net present value
 ```{r valuep}
 
 source("../R/compute_NPV.R")
-source("../R/compute_profit_frompower.R")
+source("../Rmaterials.April14/compute_profit_frompower.R")
 
 compute_profit_frompower
 
