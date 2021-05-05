@@ -1,5 +1,5 @@
 #'  Discrete Logistic population growth
-#' @param p0 starting population
+#' @param p0 starting popultation
 #' @param r growth rate
 #' @param T number of timesteps
 #' @param K carrying capacity

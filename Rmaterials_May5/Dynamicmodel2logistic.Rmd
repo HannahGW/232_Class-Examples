@@ -17,7 +17,7 @@ So we could implement them as difference equations and iterate
 like we did with diffusion
 
 ```{r iteratie}
-source("../Rmaterials-May3/discrete_logistic_pop.R")
+source("../R/discrete_logistic_pop.R")
 # notice how a for loop is used to iterate
 
 # how many rabbits after 50 years given a growth of 0.1
@@ -49,7 +49,7 @@ using an ode solver for numerical approximation (exppop_play.R)
 numerical integration using in discrete steps (discrete_logistic_pop.R)
 ```{r closed}
 
-source("../Rmaterials-May3/exppop.R")
+source("../R/exppop.R")
 
 exppop(P0=P0, r=r, K=K, T=T)
 analytic_result = exppop(P0=P0, r=r, K=K, T=T)
@@ -81,7 +81,7 @@ Needs
 
 ```{r}
 
-source("../R/exppop_play.R")
+source("../R/dexppop_play.R")
 
 # set up using the same parameters
 pcompare = list(r=r,K=K)
